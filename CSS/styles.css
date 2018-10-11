@@ -1,0 +1,85 @@
+.container {
+	max-width: 928px;
+}
+
+.main{
+	background-image: url(../images/intro.jpg);
+	background-size: cover;
+	height: 550px;
+	padding-top: 25px;
+}
+
+.main h1 {
+	font-family: 'Iceland', crusive;
+	font-size: 72px;
+	text-shadow: 1px 1px 4px tomato;
+	transition: text-shadow 1s;
+}
+
+.main h1:hover {
+	text-shadow: 3px 3px 4px cyan;
+}
+
+.main h2 {
+	font-family: 'Lora';
+	margin-bottom: 30px;
+}
+
+.main a {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.btn {
+	background-color: tomato;
+	border-radius: 32px;
+	color: white;
+	padding: 8px 40px;
+	transition: box-shadow 1s;
+}
+
+.btn:hover {
+	box-shadow: 2px 2px 2px black;
+}
+
+.section .row {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+
+.row p {
+	font-size: 26px;
+	font-family: 'Iceland', crusive;
+}
+
+.row h1 {
+	font-family: 'Slabo 27px', serif;
+}
+
+.store {
+	text-align: center;
+	padding: 30px 0;
+	border-bottom: 1px solid black;
+}
+
+.footer{
+	background-color: #c0c0c0;
+	padding: 20px 0px;
+}
+
+.footer h1 {
+	font-size: 26px;
+	font-weight: bolder;
+}
+
+.footer ul{
+	list-style-type: none;
+	padding-left: 0; 
+}
+
+.col-md-4 {
+	text-align: center;
+}
+
+
